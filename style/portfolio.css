@@ -25,6 +25,21 @@
   cursor: pointer;
 }
 
+.about-content{
+    max-width: 887px;
+    text-align: center;
+}
+.about-content h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #181818;
+}
+.about-content p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
 /* Main style */
 header {
   background-color: #FFF8F3;
@@ -101,4 +116,28 @@ nav .menu a {
   vertical-align: middle;
 
 
+}
+/* banner design end here */
+
+/* about section design start from here */
+#about-section{
+  margin-top: 130px;
+}
+#about-section .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin:0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+
+}
+.card-info{
+  display: flex;
+  justify-content: space-around;
+}
+.card-info .Info p ,h4{
+  font-size: 20px;
+  line-height: 30px;
+  color:#757575;
 }
