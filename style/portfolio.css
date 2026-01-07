@@ -1,16 +1,20 @@
-*{
-    margin: 0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- /* shared style */
+
+/* shared style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.orange{
-  color:#FD6E0A;
+
+.orange {
+  color: #FD6E0A;
 }
-.btn{
+
+.btn {
   border: none;
   font-size: 20px;
   font-weight: bold;
@@ -18,34 +22,83 @@
   background-color: #FD6E0A;
   padding: 18px 35px;
   color: white;
+  cursor: pointer;
 }
+
 /* Main style */
-header{
+header {
   background-color: #FFF8F3;
+  background: url(../images/developer.png),url(../images/header_bg.png), #FFF8F3;;
+  background-position: top left ,bottom right;
+  background-repeat: no-repeat;
+   padding-top: 51px;
 }
-nav{
-  width:71%;
+
+nav {
+  width: 71%;
   max-width: 1140px;
   display: flex;
   justify-content: space-between;
- padding-top: 51px;
   align-items: center;
   margin: 0 auto;
 }
-.logo h2{
+
+.logo h2 {
   font-size: 45px;
   font-weight: bolder;
 
 }
-nav .menu{
+
+nav .menu {
   display: flex;
   gap: 51px;
   list-style: none;
   align-items: center;
 }
-nav .menu a{
+
+nav .menu a {
   text-decoration: none;
   color: #474747;
   font-size: 20px;
 }
+
 /* nav section has been end here */
+
+/* Hero section or banner design stated from here */
+#hero-banner {
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero-banner .banner-textcontent {
+  max-width: 585px;
+}
+
+#hero-banner .banner-textcontent h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+
+}
+
+#hero-banner .banner-textcontent h1 {
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#hero-banner .banner-textcontent p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom:30px;
+}
+#hero-banner .banner-img img{
+  max-width: 584px;
+  vertical-align: middle;
+
+
+}
