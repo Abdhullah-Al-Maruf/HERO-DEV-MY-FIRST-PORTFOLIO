@@ -21,6 +21,7 @@
   border-radius: 5px;
   background-color: #FD6E0A;
   padding: 18px 35px;
+
   color: white;
   cursor: pointer;
 }
@@ -44,12 +45,13 @@
   margin-bottom: 30px;
 }
 
+/* this is the shared box size for all  boxes of 1140px */
 .skill-container,
-.resume-container {
+.resume-container,
+.footer-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
-
 }
 
 .resume-container hr {
@@ -61,7 +63,7 @@ header {
   background-color: #FFF8F3;
   background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
   ;
-  background-position: top left, bottom right;
+  background-position: 38px 23px, bottom right;
   background-repeat: no-repeat;
   padding-top: 51px;
 }
@@ -241,4 +243,57 @@ h4 {
   font: 16px;
   color: #757575;
   line-height: 28px;
+}
+
+.button-center {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* resume section end here and footer section design start from here */
+
+footer {
+  margin-top: 113px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+footer .footer-container {
+  display: flex;
+  gap: 117px;
+
+}
+
+footer .footer-container .social {
+  max-width: 562px;
+
+}
+
+footer .footer-container h2 {
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+
+}
+
+footer .footer-container p {
+  font: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"] ,.footer-container form textarea{
+  margin-bottom: 24px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 30px;
+  width:461px ;
 }
