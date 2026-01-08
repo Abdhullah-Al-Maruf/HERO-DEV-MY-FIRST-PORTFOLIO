@@ -25,9 +25,10 @@
   cursor: pointer;
 }
 
-.about-content{
+.section-content{
     max-width: 887px;
     text-align: center;
+    margin: 0 auto ;
 }
 .about-content h2{
   font-size: 35px;
@@ -141,3 +142,45 @@ nav .menu a {
   line-height: 30px;
   color:#757575;
 }
+
+/* about section end here and next my skill part start here */
+#skill{
+  padding-top: 130px;
+
+
+}
+.skill-container{
+  width: 71%;
+  max-width:1140px;
+  margin:0 auto;
+
+}
+.card-container{
+  display: flex;
+  padding-top: 50px;
+  gap: 24px;
+  
+}
+.card-container .skillcard-info{
+  max-width: 247px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #0000001f;
+}
+.card-container .skillcard-info img{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.card-container .skillcard-info h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.card-container .skillcard-info p{
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+
+}
+/* skill part design end here */
+
