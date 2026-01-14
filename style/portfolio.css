@@ -110,7 +110,7 @@ nav .menu a {
   max-width: 585px;
 }
 
-#hero-banner .banner-textcontent h2 {
+#hero-banner .banner-textcontent  {
   font-size: 45px;
   font-weight: 600;
   color: #474747;
@@ -135,8 +135,9 @@ nav .menu a {
   max-width: 584px;
   vertical-align: middle;
 
-
 }
+
+
 
 /* banner design end here */
 
@@ -322,5 +323,112 @@ footer .footer-container p {
 .btn:hover {
   background-color: rgba(26, 24, 24, 0.199);
 }
-
 /* project end here */
+
+/* NOW WE will make this site responsive .so we will do it one by one  section and hide other section and then make it and hide it for this we will use a class */
+.hide{
+  display: none !important;
+}
+
+/* resonponsive for small device */
+@media screen and (max-width:576px) {
+/* header section */
+
+header {
+  
+    background:url(../images/header_bg.png),#FFF8F3;
+    background-position:bottom right;
+    background-repeat:no-repeat;
+}
+  /* nav section */
+nav{
+gap: 20px;
+
+}
+nav .menu {
+    flex-wrap: wrap;
+  justify-content: center;
+}
+/* banner section */
+#hero-banner {
+  margin: 20px;
+  text-align: center;
+}
+#hero-banner .banner-textcontent h2{
+  font-size: 35px;
+}
+#hero-banner .banner-textcontent h1{
+  font-size: 45px;
+  margin-bottom: auto ;
+}
+
+#hero-banner .banner-img img{
+  width: 100%;
+}
+
+  /* aboutsection */
+  #about-section .about-container{
+    width: 100%;
+    padding:2px;
+  }
+
+  .card-info{
+    flex-direction: column;
+  }
+  .about-container p{
+    margin-bottom: 10px;
+  }
+  
+   /* skill section */
+  #about-section, #skill, #resume {
+    margin-top: 50px;
+  }
+  .skill-container,
+ .resume-container,
+ .footer-container {
+    width:95%;
+}
+
+.card-container {
+    flex-direction: column;
+    padding-top: 50px;
+}
+.card-container .skillcard-info{
+  max-width: 100%;
+}
+/* resume section   */
+
+.resume-container {
+    padding-top: 18px;
+    flex-direction: column;
+}
+.resume-container .section-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.resume-container .edu-card{
+  max-width: 100%;
+}
+.edu-card .card-heading{
+  font-size: 20px;
+}
+.btn{
+  font-size: 13px;
+  padding: 10px;
+}
+.button-center{
+  padding-top: 5px;
+}
+/* footer section
+ */
+footer .footer-container,
+nav ,#hero-banner{
+  flex-direction: column;
+}
+.footer-container form input[type="text"],
+ .footer-container form textarea {
+    width:100%;
+}
+
+
+}
