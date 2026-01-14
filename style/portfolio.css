@@ -323,6 +323,33 @@ footer .footer-container p {
 .btn:hover {
   background-color: rgba(26, 24, 24, 0.199);
 }
+
+
+ /*slide  animation: part */ 
+#hero-banner .banner-img img,
+#hero-banner .banner-textcontent h1,
+#hero-banner .banner-textcontent h2
+{
+ 
+  opacity: 0;
+  transform: translateX(120px);
+  animation: imageSlide 1.5s ease-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes imageSlide{
+  from{
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
 /* project end here */
 
 /* NOW WE will make this site responsive .so we will do it one by one  section and hide other section and then make it and hide it for this we will use a class */
